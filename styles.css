@@ -25,14 +25,38 @@ ul {
   gap: 18px;
 }
 
-a {
+a, .top p, .sign-up {
   text-decoration: none;
   color: #E5E7EB;
   font-size: 18px;
 }
 
 .top {
+  background-color: #1F2937;
   display: flex;
   padding: 64px 128px;
   flex: 1 1 0;
+}
+
+h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+img {
+  height: auto;
+  margin: 24px;
+  width: 100%;
+  max-width: 500px;
+  max-height:100%;
+  object-fit: contain;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  text-align: center;
+  border: none;
+  padding: 4px 32px;
+  border-radius: 8px;
 }
