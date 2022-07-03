@@ -61,7 +61,7 @@ img {
 }
 
 .information {
-  padding: 36px 128px;
+  padding: 36px 192px;
   text-align: center;
 }
 
@@ -92,4 +92,20 @@ h2 {
   border-style: solid;
   border-radius: 16px;
   margin: 0px;
+}
+
+.quote {
+  padding: 48px 192px;
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.quote p {
+  text-align: right;
+  font-size: 24px;
 }
