@@ -102,10 +102,40 @@ h2 {
 
 h3 {
   font-size: 36px;
-  font-weight: lighter;
+  font-weight: 100;
   font-style: italic;
 }
 .quote p {
   text-align: right;
   font-size: 24px;
+}
+
+.bottom {
+  background-color: #3882F6;
+  margin: 48px 128px;
+  border-radius: 8px;
+  padding: 32px 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom .sign-up {
+  border-color: white;
+  color: white;
+  border-style: ridge;
+  height: 36px;
+  flex-shrink: 1;
+}
+
+.bottom h4 {
+  color: white;
+  margin: 0px;
+  font-weight: 900;
+}
+
+.bottom p {
+  color: white;
+  margin: 0px;
+  font-weight: 100;
 }
