@@ -139,3 +139,11 @@ h3 {
   margin: 0px;
   font-weight: 100;
 }
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 4px;
+  font-size: 12px;
+}
