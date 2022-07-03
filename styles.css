@@ -45,7 +45,6 @@ h1 {
 }
 
 img {
-  height: auto;
   margin: 24px;
   width: 100%;
   max-width: 500px;
@@ -59,4 +58,38 @@ img {
   border: none;
   padding: 4px 32px;
   border-radius: 8px;
+}
+
+.information {
+  padding: 36px 128px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-top: 0px;
+  margin-bottom: 36px;
+}
+
+.illustrations {
+  display: flex;
+  gap: 64px;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 256px;
+  align-content: center;
+}
+
+.illustrations img {
+  border: 2px #3882F6;
+  border-style: solid;
+  border-radius: 16px;
+  margin: 0px;
 }
